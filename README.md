@@ -1,5 +1,5 @@
 txt_to_obj.c
- - Reads heightgrid/heightmap from keyboard input and converts it to an .obj file (3D model file) (the .obj file contents are written to standard output)
+ - Reads heightgrid/heightmap from keyboard input (decimal numbers with space in between: "1.37 5.18 2.3748 0.93 ") and converts it to an .obj file (3D model file) (the .obj file contents are written to standard output)
 
 IMPORTANT: You must end every row with "666", and end the whole input with anything higher than or equal to "999".
 
